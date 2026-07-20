@@ -13,15 +13,15 @@ Projede COVID-19 Radiography Database veri seti kullanılmıştır.
 
 Veri seti aşağıdaki üç sınıftan oluşmaktadır:
 
--COVID-19
--Normal
--Viral Pnömoni
+- COVID-19
+- Normal
+- Vİral Pnömoni
 
 Model eğitimi için veri seti aşağıdaki şekilde bölünmüştür:
 
--Eğitim (Training): %70
--Doğrulama (Validation): %15
--Test (Test): %15
+- Eğitim (Training): %70
+- Doğrulama (Validation): %15
+- Test (Test): %15
 
 Veri seti boyutunun büyük olması nedeniyle GitHub deposuna eklenmemiştir.
 
@@ -29,15 +29,15 @@ Veri seti boyutunun büyük olması nedeniyle GitHub deposuna eklenmemiştir.
 
 Model eğitiminden önce aşağıdaki ön işleme adımları uygulanmıştır:
 
--Görüntülerin 224×224 boyutuna yeniden ölçeklendirilmesi
--Piksel değerlerinin normalize edilmesi
--Veri artırma (Data Augmentation)
--Döndürme (Rotation)
--Yakınlaştırma (Zoom)
--Yatay ve dikey kaydırma
--Shear dönüşümü
--Parlaklık değişimi
--Yatay çevirme (Horizontal Flip)
+- Görüntülerin 224×224 boyutuna yeniden ölçeklendirilmesi
+- Piksel değerlerinin normalize edilmesi
+- Veri artırma (Data Augmentation)
+- Döndürme (Rotation)
+- Yakınlaştırma (Zoom)
+- Yatay ve dikey kaydırma
+- Shear dönüşümü
+- Parlaklık değişimi
+- Yatay çevirme (Horizontal Flip)
 
 ## Kullanılan Modeller
 ### ResNet101
